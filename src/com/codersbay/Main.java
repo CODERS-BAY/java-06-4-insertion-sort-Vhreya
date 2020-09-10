@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] numbers = {25, 10,15, 4, 7, 13,2};
+        int[] numbers = {25, 10, 15, 4, 7, 13, 2};
 
         for (int j = 1; j < numbers.length; j++) {
             if (numbers[j] < numbers[j - 1]) {
